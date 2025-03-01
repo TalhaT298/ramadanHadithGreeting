@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Card Container */
+  .card-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #000000; /* Slightly lighter than black for readability */
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input Field */
+  #userInput {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  /* Hadith Container */
+  .hadith-container {
+    margin-top: 20px;
+  }
+  
+  .hadith-arabic {
+    font-size: 1.5rem;
+    font-family: 'Amiri', serif;
+    margin-bottom: 10px;
+  }
+  
+  .hadith-english, .hadith-bangla {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #000000, #0b6368);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e8e8e8;
+    color: #000000;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #000000
+  }
